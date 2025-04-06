@@ -1,0 +1,26 @@
+{
+  "name": "stacia",
+  "description": "A library for STACiA",
+  "version": "0.0.2",
+  "author": {
+    "name": "STACiA",
+    "url": "https://github.com/staciax",
+    "email": "stacia.dev@gmail.com"
+  },
+  "bugs": "https://github.com/staciax/staciajs/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/staciax/staciajs"
+  },
+  "homepage": "https://github.com/staciax/staciajs",
+  "module": "src/index.ts",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "^1.2.5",
+    "bun-plugin-dts": "^0.3.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
